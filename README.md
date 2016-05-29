@@ -34,6 +34,6 @@ root.mainloop()
 
 ## Parameter for animate
 
-- *threaded:* Boolean, indicates if an extra thread should be used for the Animation or not
-- *interval:* Integer, Miliseconds between each frame
-- *n_repats:* Integer, Number of repeated animations. If a negative Integer is passed the animation is endless
+- **threaded:** Boolean, indicates if an extra thread should be used for the Animation or not
+- **interval:** Integer, Miliseconds between each frame
+- **n_repats:** Integer, Number of repeated animations. If a negative Integer is passed the animation is endless
