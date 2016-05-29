@@ -3,8 +3,6 @@ try:
 except:
     import tkinter as tk
     
-from time import sleep
-import threading
 from Gif import * 
 
 root = tk.Tk()
@@ -15,7 +13,7 @@ gif.pack()
 # threaded=False -> No extra thread for animation
 # interval=10    -> Every 10 miliseconds a new 
 #                   Frame
-# n_repears=-1   -> Endless animation
+# n_repeats=-1   -> Endless animation
 #                   Use a positive integer to 
 #                   define a finit number of animations
 gif.animate(threaded=False, interval=10, n_repeats=-1)
